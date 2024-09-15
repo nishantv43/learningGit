@@ -8,4 +8,6 @@ public class Movies {
 
     private Date yearReleased;
 
+    private String director;
+    private String genre;
 }
