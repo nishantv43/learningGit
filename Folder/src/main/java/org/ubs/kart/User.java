@@ -24,4 +24,12 @@ public class User {
         Id = id;
         Name = name;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "Id=" + Id +
+                ", Name='" + Name + '\'' +
+                '}';
+    }
 }
